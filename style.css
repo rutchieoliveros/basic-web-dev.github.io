@@ -1,0 +1,270 @@
+body {
+    margin: auto;
+    color: 7A2367;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER - SHOP-A-PHONE ONLINE STORE*/
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    font-size: 2em;
+    background-color: #7A2367;
+    color: #FF2FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.carousel-inner{
+        height: 20rem;
+        margin: auto;
+        margin-top: 0;
+  }
+
+@media only screen and (max-width: 800px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+/*CSS for CART button*/
+.leftButton{
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    font-size: 0.7em;
+}
+
+#products-container {
+      width: 90vw;
+      display: grid;
+      flex-flow: wrap;
+      margin: auto;
+
+  }
+  
+#products-container div {
+      width: 23%;
+      margin: 1%;
+      height: 50px;
+}
+
+/*wrapper
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+      */
+
+/*list in the header tab*/
+li {
+    padding: 20px;
+}
+
+/*link to the cart*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.card-title {
+  color: #f2f2f2;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*PHONE DISPLAY*/
+.d-flex{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+
+/*
+/*h3{
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+}*/
+
+h5{
+    margin-top: 0;
+    text-align: center;
+    color: black;
+}
+
+.cl {
+  color: black;
+  text-align: center;
+}
+
+.btn-primary{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+    background-color: #f8cfd5;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-img-top{
+    width: 100%;
+
+}
+
+
+p{
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+}
